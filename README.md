@@ -92,5 +92,8 @@ On top of that, there are multiple dataset limitations worth considering.
 ## <a name="conclusion"></a>Conclusion
 This analysis implies that Salifort Motors is currently operating under a very unsustainable working culture that burns out its top talents, and at the same time underutilizes employees within normal working thresholds. On top of that, limited progression and internal mobility made it very hard for employees to find a reason to stay, as their efforts are unrecognized.
 
+## <a name="contact"></a>📬 Contact
+For further questions regarding this analysis or to discuss potential implementation strategies:
 
-
+- **Email:** mhaikalazman00@gmail.com
+- **GitHub:** https://github.com/mhaikalazman00-dev
