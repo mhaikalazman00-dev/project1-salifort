@@ -15,10 +15,10 @@ Analyzing 10k+ employee profiles to identify the leading attrition cause and cre
 
 ---
 
-## 📌 Overview
+## <a name="overview"></a>📌 Overview
 This project analyzes cross-sectional data of employee profiles to answer what drives attrition in Salifort Motors. The goal is to transform raw data into actionable insights that can help the HR department and executives make data-driven decisions for policy revision to increase retention.
 
-## 🎯 Problem Statement
+## <a name="problem-statement"></a>🎯 Problem Statement
 The core challenge addressed in this analysis is:
 Employee turnover rate is recorded as high as 16.6% by the time the data is collected. We are tasked with constructing a machine learning model to predict turnovers. To construct the model, an analysis was conducted to identify the leading factors of attrition.
 
@@ -27,7 +27,7 @@ Employee turnover rate is recorded as high as 16.6% by the time the data is coll
 - Construct a machine learning model to predict turnovers.
 - Provide recommendations to improve retention.
 
-## 📂 Data Source
+## <a name="data-source"></a> 📂 Data Source
 The dataset used for this analysis was obtained from Kaggle.
 - **Record Count:** 1499 rows
 - **Columns:** 10 features; ['satisfaction_level', 'last_evaluation', 'number_project',
@@ -36,12 +36,12 @@ The dataset used for this analysis was obtained from Kaggle.
 
 *Note: The raw data has been cleaned and pre-processed. See the [Methodology](#methodology) section for details.*
 
-## 🛠 Tools & Technologies
+## <a name="tools--technologies"></a> 🛠 Tools & Technologies
 - **Data Extraction/Storage:** Python (Pandas)
 - **Data Cleaning:** Python (Pandas, NumPy)
 - **Exploratory Data Analysis (EDA):** Kaggle Notebook, Python (Matplotlib, Seaborn)
 
-## 🔍 Methodology
+## <a name="methodology"></a>🔍 Methodology
 This analysis followed a standard data analytics pipeline:
 
 1. **Data Extraction & Loading:** Data was queried from Kaggle and loaded into Kaggle Notebook.
@@ -56,14 +56,14 @@ This analysis followed a standard data analytics pipeline:
    - work_health (Employee's working condition based on their working hours)
    - tier (Employee's performance tier)
 
-## 💡 Key Findings & Insights
+## <a name="key-findings--insights"></a>💡 Key Findings & Insights
 Based on the analysis, the following insights were discovered:
 
 - **Insight 1:** Normalized Overworking – Critical overworking is systematically favored; a dense population of high-performers is present in this threshold
 - **Insight 2:** Over and Underutilization Patterns – Attrition spikes with overutilization and underutilization
 - **Insight 3:** Low Internal Mobility – Excluding employees who left, there is a 1.95% 5-Year Promotion Incidence
 
-## Model Construction
+## <a name="model-construction"></a>Model Construction
 Based on the EDA findings, constructing a predictive attrition model is not recommended. Given that employees in Salifort Motors are working above the normal working hours and the legal overtime threshold on average, the ethical risks of constructing a prediction model are:
 
 1. **Unfair incentives to retain employees:** The model might be used strictly to incentivize employees without rectifying humanitarian policies.
@@ -75,7 +75,7 @@ On top of that, there are multiple dataset limitations worth considering.
 - Given the cross-sectional nature of the dataset, models are only able to match attrition profiles between employees instead of calculating real risks.
 - Given the lack of details on employee roles and project details, models cannot reliably predict without context.
 
-## Next Steps
+## <a name="next-steps"></a>Next Steps
 1. **Curbing Overtime:**
    - Revising Employee Evaluation Framework: HR should investigate why overworking is favored and make a data-driven solution to this issue.
    - Physical Overtime Guardrails: Executives can put forward a policy to curb overtime via physical means. Policies such as scheduled network downtimes, mandatory lights-off hours, or mandatory closing periods will make overtime unfavorable, thus normalizing standard hours
@@ -89,7 +89,7 @@ On top of that, there are multiple dataset limitations worth considering.
    - Broadbanding: Introducing a wider salary range within the same position would increase internal progression without creating new seats or ladders for employees to climb
    - Lateral Mobility: HR should assess an employee's skill to find eligible adjacent roles outside of their posted department. Lateral mobility is a strategy to keep employees engaged
 
-## Conclusion
+## <a name="conclusion"></a>Conclusion
 This analysis implies that Salifort Motors is currently operating under a very unsustainable working culture that burns out its top talents, and at the same time underutilizes employees within normal working thresholds. On top of that, limited progression and internal mobility made it very hard for employees to find a reason to stay, as their efforts are unrecognized.
 
 
